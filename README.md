@@ -1,0 +1,181 @@
+# 🛍️ Nedlyka Ecommerce - Affordable Price on Top Brands
+
+Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, Sneakers and more with fast delivery and great deals with a secured checkout.
+
+## ✨ Features
+
+- 🚀 **React**: Built with React for a dynamic and responsive user interface.
+- ⚛️ **React Router**: Seamless navigation between different sections of the application.
+- 🛒 **Cart Context**: Utilizes context API for managing the shopping cart state across the app.
+- 🔥 **Firebase**: Integrated with Firebase for authentication and data storage.
+- 🎨 **Tailwind CSS**: Styled with Tailwind CSS for a modern and responsive design.
+- 💫 **React Hot Toast**: Displays sleek and informative notifications.
+- 🔄 **Vite**: Uses Vite as a build tool for a faster and more efficient development experience.
+- 🛡️ **Eslint**: Lints the code to maintain a consistencey.
+
+## 🛠️ Technologies Used
+
+| Technology        | Description                                                |
+| :---------------- | :--------------------------------------------------------- |
+| React             | A JavaScript library for building user interfaces          |
+| React Router      | A standard library for routing in React                   |
+| Tailwind CSS      | A utility-first CSS framework for rapid UI development     |
+| Firebase          | A platform for building web, mobile, and serverless apps   |
+| Vite              | A build tool that aims to provide a faster and leaner development experience for modern web projects.  |
+| React Hot Toast   |  Displays sleek and informative notifications. |
+
+## 💻 Usage
+
+1.  **Home Page**
+    -   Displays a list of products, categories, and promotional banners.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+    <Route path="/" element={<Home />} />
+    ```
+    </details>
+
+2.  **Product Listing**
+
+    -   Browse all available products.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+    <ProductList />
+    ```
+
+    </details>
+    
+3. **Product Category**
+
+    -   Browse products by the selected category.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+    <Route path="/category/:categoryName" element={<ProductCategory />} />
+    ```
+
+    </details>
+
+4.  **Shopping Cart**
+    -   Add, update, and remove items from the cart.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+    <Route path="/cart" element={<Cart />} />
+    ```
+
+    </details>
+
+5.  **Checkout Process**
+    -   Review orders and place orders.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+    <Route path="/order" element={<OrderPage />} />
+    ```
+
+    </details>
+
+6. **Login and Registration**
+
+    -  Users can log into their account using email and password or Google Auth, also users can create a new account in the system.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+    <Route path="/login" element={<Login />} />
+    <Route path="/register" element={<Register />} />
+    ```
+
+    </details>
+
+7.  **About Page**
+
+    -   Learn more about the company and mission.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+     <Route path="/about" element={<About />} />
+    ```
+
+    </details>
+
+8.  **Contact Page**
+
+    -   Reach out with questions, feedback, or support requests.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+     <Route path="/contact" element={<Contact />} />
+    ```
+
+    </details>
+
+9.  **Policy Page**
+
+    -   Read the store’s policies, terms, and conditions.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+    <Route path="/policy" element={<Policy />} />
+    ```
+
+    </details>
+
+10. **Admin Dashboard**
+
+    -   Manage orders, products, and shipping.
+
+    <details>
+    <summary>Example Code Snippet:</summary>
+
+    ```jsx
+    <Route path="/dashboard" element={<DashboardLayout />}>
+        <Route index element={<Dashboard />} />
+        <Route path="order" element={<ManageOrder />} />
+        <Route path="products" element={<ManageProducts />} />
+        <Route path="payment-shipping" element={<PaymentShipping />} />
+      </Route>
+    ```
+
+    </details>
+
+## 🤝 Contributing
+
+We welcome contributions from everyone! Here are the guidelines:
+
+- 🐛 Report bugs by opening an issue.
+- 💡 Suggest new features by opening an issue.
+- 🛠️ Submit pull requests with clear descriptions.
+- 📝 Follow the existing code style.
+
+## 📜 License
+
+This project is under the [MIT License](link-to-license).
+
+## 🧑‍💻 Author Info
+
+-   **GOD'STIME**
+    -   [GitHub](https://github.com/your-github)
+    -   [Twitter](https://twitter.com/your-twitter)
+    -   [LinkedIn](https://www.linkedin.com/in/your-linkedin)
+
+[![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
