@@ -6,7 +6,6 @@ import About from "./pages/About";
 import Policy from "./pages/Policy";
 import Contact from "./pages/Contact";
 import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
 import OrderPage from "./pages/OrderPage";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
