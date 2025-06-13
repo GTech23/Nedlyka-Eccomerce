@@ -1,8 +1,19 @@
-{
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+[
+  {
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  {
+    "version": 2,
+    "build": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build"
+      }
+    ]
+  }
+]
