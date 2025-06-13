@@ -31,7 +31,6 @@ function App() {
           <Route path="/policy" element={<Policy />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<Checkout />} />
           <Route path="/order" element={<OrderPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
