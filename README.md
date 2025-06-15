@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🛍️ Nedlyka Ecommerce - Affordable Price on Top Brands
 
 Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, Sneakers and more with fast delivery and great deals with a secured checkout.
@@ -16,19 +15,20 @@ Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, 
 
 ## 🛠️ Technologies Used
 
-| Technology        | Description                                                |
-| :---------------- | :--------------------------------------------------------- |
-| React             | A JavaScript library for building user interfaces          |
-| React Router      | A standard library for routing in React                   |
-| Tailwind CSS      | A utility-first CSS framework for rapid UI development     |
-| Firebase          | A platform for building web, mobile, and serverless apps   |
-| Vite              | A build tool that aims to provide a faster and leaner development experience for modern web projects.  |
-| React Hot Toast   |  Displays sleek and informative notifications. |
+| Technology      | Description                                                                                           |
+| :-------------- | :---------------------------------------------------------------------------------------------------- |
+| React           | A JavaScript library for building user interfaces                                                     |
+| React Router    | A standard library for routing in React                                                               |
+| Tailwind CSS    | A utility-first CSS framework for rapid UI development                                                |
+| Firebase        | A platform for building web, mobile, and serverless apps                                              |
+| Vite            | A build tool that aims to provide a faster and leaner development experience for modern web projects. |
+| React Hot Toast | Displays sleek and informative notifications.                                                         |
 
 ## 💻 Usage
 
 1.  **Home Page**
-    -   Displays a list of products, categories, and promotional banners.
+
+    - Displays a list of products, categories, and promotional banners.
 
     <details>
     <summary>Example Code Snippet:</summary>
@@ -36,11 +36,12 @@ Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, 
     ```jsx
     <Route path="/" element={<Home />} />
     ```
+
     </details>
 
 2.  **Product Listing**
 
-    -   Browse all available products.
+    - Browse all available products.
 
     <details>
     <summary>Example Code Snippet:</summary>
@@ -50,10 +51,10 @@ Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, 
     ```
 
     </details>
-    
-3. **Product Category**
 
-    -   Browse products by the selected category.
+3.  **Product Category**
+
+    - Browse products by the selected category.
 
     <details>
     <summary>Example Code Snippet:</summary>
@@ -65,7 +66,8 @@ Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, 
     </details>
 
 4.  **Shopping Cart**
-    -   Add, update, and remove items from the cart.
+
+    - Add, update, and remove items from the cart.
 
     <details>
     <summary>Example Code Snippet:</summary>
@@ -77,7 +79,8 @@ Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, 
     </details>
 
 5.  **Checkout Process**
-    -   Review orders and place orders.
+
+    - Review orders and place orders.
 
     <details>
     <summary>Example Code Snippet:</summary>
@@ -88,9 +91,9 @@ Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, 
 
     </details>
 
-6. **Login and Registration**
+6.  **Login and Registration**
 
-    -  Users can log into their account using email and password or Google Auth, also users can create a new account in the system.
+    - Users can log into their account using email and password or Google Auth, also users can create a new account in the system.
 
     <details>
     <summary>Example Code Snippet:</summary>
@@ -104,33 +107,33 @@ Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, 
 
 7.  **About Page**
 
-    -   Learn more about the company and mission.
+    - Learn more about the company and mission.
 
     <details>
     <summary>Example Code Snippet:</summary>
 
     ```jsx
-     <Route path="/about" element={<About />} />
+    <Route path="/about" element={<About />} />
     ```
 
     </details>
 
 8.  **Contact Page**
 
-    -   Reach out with questions, feedback, or support requests.
+    - Reach out with questions, feedback, or support requests.
 
     <details>
     <summary>Example Code Snippet:</summary>
 
     ```jsx
-     <Route path="/contact" element={<Contact />} />
+    <Route path="/contact" element={<Contact />} />
     ```
 
     </details>
 
 9.  **Policy Page**
 
-    -   Read the store’s policies, terms, and conditions.
+    - Read the store’s policies, terms, and conditions.
 
     <details>
     <summary>Example Code Snippet:</summary>
@@ -143,18 +146,18 @@ Your one-stop shop for quality products and unbeatable deals. Shop Crocs, Pams, 
 
 10. **Admin Dashboard**
 
-    -   Manage orders, products, and shipping.
+    - Manage orders, products, and shipping.
 
     <details>
     <summary>Example Code Snippet:</summary>
 
     ```jsx
     <Route path="/dashboard" element={<DashboardLayout />}>
-        <Route index element={<Dashboard />} />
-        <Route path="order" element={<ManageOrder />} />
-        <Route path="products" element={<ManageProducts />} />
-        <Route path="payment-shipping" element={<PaymentShipping />} />
-      </Route>
+      <Route index element={<Dashboard />} />
+      <Route path="order" element={<ManageOrder />} />
+      <Route path="products" element={<ManageProducts />} />
+      <Route path="payment-shipping" element={<PaymentShipping />} />
+    </Route>
     ```
 
     </details>
@@ -174,13 +177,12 @@ This project is under the [MIT License](link-to-license).
 
 ## 🧑‍💻 Author Info
 
--   **GOD'STIME**
-    -   [GitHub](https://github.com/your-github)
-    -   [Twitter](https://twitter.com/your-twitter)
-    -   [LinkedIn](https://www.linkedin.com/in/your-linkedin)
+- **GOD'STIME**
+  - [GitHub](https://github.com/GTech23)
+  - [X](https://x.com/GodstimePious)
 
-[![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
-=======
+# [![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
+
 # Nedlyka-Eccomerce
+
 Nedlyka - Affordable prices on top brands. Shop Crocs, Pams, Sneakers and more with fast delivery and great deals with a secured checkout.
->>>>>>> ab054f2ba9cadf9397a61caae2af4cae622f2af3
