@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import CartItem from "../components/CartItem";
 import OrderSummary from "../components/OrderSummary";
-
+import checkOutIcon from "../assets/icons/checkout-lock-icon.png";
+import Footer from "../components/Footer";
 import { useCart } from "../context/CartContext";
 function Cart() {
   const { cartItems } = useCart();
@@ -31,10 +32,7 @@ function Cart() {
           </div>
 
           <div>
-            <img
-              src="/src/assets/icons/checkout-lock-icon.png"
-              alt="Checkout Lock icon"
-            />
+            <img src={checkOutIcon} alt="Checkout Lock icon" />
           </div>
         </div>
 
@@ -63,6 +61,7 @@ function Cart() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
