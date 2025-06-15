@@ -113,7 +113,7 @@ function Footer() {
       <p className="text-gray-500 text-center text-sm">
         Designed by{" "}
         <a className="text-amber-500" href="https://godstimeweb.vercel.app">
-          Godstime Pious
+          Gtech
         </a>
       </p>
     </footer>
