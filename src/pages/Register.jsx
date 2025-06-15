@@ -95,7 +95,7 @@ function Register() {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
         <button
-          className="mb-4 text-blue-600 hover:underline font-semibold"
+          className="mb-4 text-amber-600 hover:underline font-semibold"
           onClick={() => navigate("/")}
         >
           &larr; Back to Home
@@ -109,7 +109,7 @@ function Register() {
             <input
               type="text"
               placeholder="Enter your full name"
-              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-amber-400"
               required
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
@@ -120,7 +120,7 @@ function Register() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-amber-400"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -131,7 +131,7 @@ function Register() {
             <input
               type="password"
               placeholder="Enter your password"
-              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-amber-400"
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -139,7 +139,7 @@ function Register() {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded font-semibold hover:bg-blue-700 transition"
+            className="w-full bg-amber-600 text-white py-2 rounded font-semibold hover:bg-amber-700 transition"
             onClick={signIn}
           >
             {loading ? "Creating account..." : "Sign up"}
@@ -152,8 +152,8 @@ function Register() {
         </div>
         <p className="text-md text-center mb-4">
           Already have an account?{" "}
-          <Link className="text-blue-600" to="/login">
-            Login{" "}
+          <Link className="text-amber-600" to="/login">
+            Login
           </Link>
         </p>
         <button

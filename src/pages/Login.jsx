@@ -42,7 +42,7 @@ function Login() {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
         <button
-          className="mb-4 text-blue-600 hover:underline font-semibold"
+          className="mb-4 text-amber-600 hover:underline font-semibold"
           onClick={() => navigate("/")}
         >
           &larr; Back to Home
@@ -56,7 +56,7 @@ function Login() {
             <input
               type="email"
               name="email"
-              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-amber-400"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -67,7 +67,7 @@ function Login() {
             <input
               type="password"
               name="password"
-              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-amber-400"
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -75,7 +75,7 @@ function Login() {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded font-semibold hover:bg-blue-700 transition"
+            className="w-full bg-amber-600 text-white py-2 rounded font-semibold hover:bg-amber-700 transition"
             disabled={loading}
           >
             {loading ? "Signing in ..." : "Sign in"}
@@ -88,7 +88,7 @@ function Login() {
         </div>
         <p className="text-md text-center mb-4">
           Don't have an account?{" "}
-          <Link className="text-blue-600" to="/register">
+          <Link className="text-amber-600" to="/register">
             Register{" "}
           </Link>
         </p>
