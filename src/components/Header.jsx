@@ -156,6 +156,14 @@ function Header() {
                 Logout
               </span>
             </Link>
+            <Link
+              to="/order"
+              className="flex justify-center items-center gap-4 sm:hidden"
+            >
+              <span className="text-neutral-800 hover:text-amber-500">
+                My Orders
+              </span>
+            </Link>
           </div>
         )}
       </header>
